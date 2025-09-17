@@ -1,4 +1,4 @@
 # DISA STIGS IMPLEMENTATION
 
 
-- **WN10-AU-000500** -	The Application event log size must be configured to 32768 KB or greater.
+- **[WN10-AU-000500](https://github.com/scomston/DISA_STIGS/blob/main/WN10-AU-000500)** -	The Application event log size must be configured to 32768 KB or greater.
