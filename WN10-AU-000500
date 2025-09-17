@@ -3,9 +3,6 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\EventLog\Application]
 "MaxSize"=dword:00008000
 
-
-
-
 <#
 .SYNOPSIS
     This PowerShell script ensures that the maximum size of the Windows Application event log is at least 32768 KB (32 MB).
@@ -32,9 +29,6 @@ Windows Registry Editor Version 5.00
     Example syntax:
     PS C:\> .\__remediation_template(STIG-ID-WN10-AU-000500).ps1 
 #>
-
-# YOUR CODE GOES HERE
-
 
 # Define the registry path and value
 $regPath = "HKLM:\SOFTWARE\Policies\Microsoft\Windows\EventLog\Application"
